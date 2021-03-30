@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane styleClass="root" stylesheets="/css/main.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.github.demon.javafx.MainController">
+    <center>
+        <GridPane alignment="center" hgap="10" vgap="10">
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" />
+            </rowConstraints>
+            <columnConstraints>
+                <ColumnConstraints minWidth="10.0" prefWidth="100.0" />
+            </columnConstraints>
+            <children>
+                <Label text="Hello World" />
+            </children>
+            <BorderPane.margin>
+                <Insets />
+            </BorderPane.margin>
+        </GridPane>
+    </center>
+    <right>
+        <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+            <image>
+                <Image url="/img/download.jpeg" />
+            </image>
+        </ImageView>
+    </right>
+</BorderPane>
